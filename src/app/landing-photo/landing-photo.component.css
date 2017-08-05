@@ -1,0 +1,58 @@
+#section1 {
+  min-height: 90vh;
+  background-image: url("../../../src/assets/landingPhoto.jpg");
+  background-color:black;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.landingTitle {
+  color: white;
+}
+#section2 {
+  min-height: 40vh;
+  background-color: white;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+}
+#section3 {
+  background-image: url("../../../src/assets/section3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+        -webkit-clip-path: polygon(0 31%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+  min-height: 100vh;
+}
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+#section2 {
+  /* background: #41ade5;s */
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.section2:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.whoAmI {
+  color: black !important;
+}
+h1 {
+  color: white;
+}
