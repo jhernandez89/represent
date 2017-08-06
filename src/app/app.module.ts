@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LandingPhotoComponent } from './landing-photo/landing-photo.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPhotoComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
