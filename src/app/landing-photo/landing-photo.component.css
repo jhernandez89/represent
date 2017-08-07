@@ -129,7 +129,9 @@
   background: url("../../../src/assets/images/landing.png") fixed center;
   background-size: cover;
 }
-
+.colNoPadding {
+  padding: 0;
+}
 
 /*   
 rgb(28, 34, 34);
