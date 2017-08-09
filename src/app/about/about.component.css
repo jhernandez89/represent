@@ -141,3 +141,7 @@ colNoPadding {
   background-color: rgb(230, 230, 230);
   padding-top: 5%;
 }
+.puzzle {
+  width: 100%;
+  height: auto;
+}
