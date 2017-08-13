@@ -17,8 +17,8 @@
 
 .projectsIconBackground {
   background-image: url("../../../src/assets/images/projects.jpg");
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
 }
 
 h3 {
-  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Great Vibes', cursive;
 }
 
 .projectRows {
@@ -152,7 +152,7 @@ h3 {
 }
 
 .puzzle {
-  width: 54%;
+  width: 65%;
   height: auto;
   padding-bottom: 5%;
 }
@@ -161,4 +161,11 @@ h3 {
 }
 .h5 {
   line-height: 5%;
+}
+.bowTie {
+  padding-top: 2%;
+  width: 55%;
+}
+.projectWord {
+  margin: 0 auto;
 }
