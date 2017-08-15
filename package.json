@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^4.3.4",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
@@ -21,11 +22,13 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "animate.css": "^3.5.2",
-    "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "enhanced-resolve": "^3.3.0",
     "font-awesome": "^4.7.0",
+    "ng2-toastr": "^4.1.0",
+    "ramda": "^0.24.1",
     "rxjs": "^5.1.0",
+    "toastr": "^2.1.2",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
