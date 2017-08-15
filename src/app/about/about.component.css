@@ -141,6 +141,9 @@ colNoPadding {
 }
 
 .lightBackground {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(240, 240, 240);
   padding-top: 5%;
+}
+.aboutMeBlerb {
+  padding: 7%;
 }
